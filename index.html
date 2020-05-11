@@ -1,1 +1,197 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Michael Arena CV</title>
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+
+<!-- Adds Tachyons aka another trendy CSS library -->
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<style>
+/*html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}*/
+</style>
+</head>
+<body class="w3-light-grey">
+<link rel="stylesheet" type="text/css" href="CSS_Script.css">
+<script src="JS_Script.js"></script>
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+<div class="buenos-dias">
+  <button class="f6 link dim br1 ph3 pv2 mb2 dib white bg-mid-gray" onclick="blue()">
+    Change the color to blue
+  </button>
+  <button class="f6 link dim br1 ph3 pv2 mb2 dib white bg-mid-gray" onclick="red()">
+    Change the color to red
+  </button>
+  <button class="f6 link dim br1 ph3 pv2 mb2 dib white bg-mid-gray" onclick="green()">
+    Change the color to green
+  </button>
+  <button class="f6 link dim br1 ph3 pv2 mb2 dib white bg-mid-gray" onclick="yellow()">
+    Change the color to yellow
+  </button>
+  <button class="f6 link dim br1 ph3 pv2 mb2 dib white bg-mid-gray" onclick="orange()">
+  Change the color to orange
+  </button>
+</div>
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="linkedin.png" style="width:100%" alt="Avatar">
+          
+          <!-- Avatar -->
+          
+          <!-- <div class="pa4 tc">
+            <img
+                src="linkedin.png"
+                class="br-100 ba h3 w3 dib" alt="avatar">
+          </div> -->
+          
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+          </div>
+        </div>
+        <div id="resume-link">
+          <h2>Michael Arena</h2>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><A href = "Michael_Arena_Resume.pdf">Michael Arena's Resume</A></p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Hamilton, Ontario</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>arenam1@mcmaster.ca</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>647-460-0352</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Finance & Valuation</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div>
+          </div>
+          <p>Computer Science & Algorithms</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
+            </div>
+          </div>
+          <p>Excel & Macros</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>Accounting</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Haskell</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>Bash</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Programming Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Project in Bash to Automate Commandline Tasks</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 02, 2020 <span class="w3-tag w3-teal w3-round"></h6>
+          <p>For my Computer Science 1XA3 class, we were given instructions on a project to make features in the Bash language to automate basic tasks that someone might need for the command line. My code is here, in my Github Repo: 
+          <A href = "https://github.com/Michael-Arena/CS1XA3/tree/master/Project01">Bash Project</A>
+
+          </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Draftkings Lineup Optimizer in Python</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 11, 2019</h6>
+          <p>Using Python, I made a algorithm that finds the best 150 possible combinations of players within the game Draftkings. I tell the program which players I deem best through their corresponding player rank. Then the algorithm exports the possible combinations to a CSV so I can upload it to the Draftkings website! The source code can be found at my github repo here: <A href = "https://github.com/Michael-Arena/Zech_Diversify/blob/master/Zech_Diversify.py">Draftkings Algorithm</A>
+          </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Recreated The Classic Game Called Snake</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 18, 2019</h6>
+          <p>Used Pygame and python to recreate the game Snake for anyone to play on their computer. The game tracks highscores and allows to control the snake using the "wsad" Keys. The source code can be found at my github repo here:
+            <A href = "https://github.com/Michael-Arena/Snake_Game/blob/master/Play_Snake.py">Code Used For Snake</A>
+          </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Degroote School of Business</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2020</h6>
+          <p>Bachelor Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Economics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2020</h6>
+          <p>Minor</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Computer Science</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2020</h6>
+          <p>Minor</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <a class="link near-black hover-silver dib h2 w2 mr3" href="https://github.com/Michael-Arena" title="GitHub">
+    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
+  </a>
+  <a class="link hover-silver near-black dib h2 w2 mr3" href="https://www.linkedin.com/in/arena-m/" title="LinkedIn">
+    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
+  </a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>

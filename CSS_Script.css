@@ -1,0 +1,52 @@
+
+.buenos-dias {
+	text-align: center;
+}
+
+#resume-link{
+	color: white;
+	background:orange;
+	border-color: black;
+	border-width: 7px;
+	border-style:groove;
+}
+
+#resume-link-blue{
+	color: white;
+	background:dodgerblue;
+	border-color: black;
+	border-width: 7px;
+	border-style:groove;
+}
+
+#resume-link-red{
+	color: white;
+	background:tomato;
+	border-color: black;
+	border-width: 7px;
+	border-style:groove;
+}
+
+#resume-link-green{
+	color: white;
+	background:green;
+	border-color: black;
+	border-width: 7px;
+	border-style:groove;
+}
+
+#resume-link-yellow{
+	color: black;
+	background:yellow;
+	border-color: black;
+	border-width: 7px;
+	border-style:groove;
+}
+
+#resume-link-orange{
+	color: white;
+	background:orange;
+	border-color: black;
+	border-width: 7px;
+	border-style:groove;
+}
